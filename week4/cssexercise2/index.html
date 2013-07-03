@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>CSS Examples: Second Exercise</title>
+<style type="text/css" media="screen">
+/* Add your styles here */
+/* Remember: do NOT change any HTML, just add CSS to get the desired effect */
+  #content {
+width: 600px;
+margin: 0 auto;
+background: #BBBBBB;
+font-family: arial, verdana, sans-serif;
+font-size:1em;
+border-left: 2px solid;
+border-right: 2px solid;
+border-bottom: 2px solid;
+}
+ 
+  h1 {
+background: #FFFD05;
+font-size: 3.1em;
+padding:20px;
+border-bottom: 2px solid;
+border-top: 2px solid;
+}
+ 
+#rules > p {
+ color: #FFFD05;
+ font-size: 1.4em;
+font-weight: bold;
+padding-left: 1.5em;
+ }
+ 
+#rules > p + p {
+color: #0C29FD;
+font-size: 1.2em;
+font-style: italic;
+font-weight: normal;
+}
+ 
+ ul {
+ list-style-type: square;
+ margin-left: 30px;
+ padding-right: 1em;
+ }
+ 
+  ul + p {
+color: black!important;
+font-size: 1.1em!important;
+font-weight: normal!important;
+}
+ 
+ .important {
+background: yellow;
+}
+
+.critical {
+border-bottom: 3.5px red solid;
+ }
+ 
+ li {
+margin-top: 15px
+
+}
+ 
+ 
+/* End of your styles */
+</style>
+</head>
+<body>
+<!-- START of exercise code -->
+<div id="content">
+ 
+<h1>Dog Park Tips</h1>	
+<div id="rules">
+<p>Some rules for taking your dog to the dog park.</p>
+<p>Try to remember these rules if you can - maybe take them with you.</p>
+<ul>
+<li>When you enter the park automatically take your dog of the leash. Not doing so can change the mentality of the pack and even start a fight</li>
+<li>Clean up after your dog</li>
+<li>If your dog is getting picked on this is normal, but it is <span class="important">up to you to draw the line</span> between playing and fighting</li>
+<li>Have fun with your dog but don't run unless you want to get bit</li>
+<li><span class="important">Bring a towel!</span> dogs get dirty and unless you want a muddy car bring a towel!</li>
+<li>There are usually different parks for big and small dogs make sure that you are in the right one</li>
+<li class="critical">Supervise your dog at all times</li>
+<li class="important critical">Make sure that your dog has all of its shots</li>
+</ul>
+<p>Your co-operation makes a better experience for everyone</p>
+</div>
+</div>
+ 
+ 
+<!-- END of exercise code -->
+</body>
+</html>

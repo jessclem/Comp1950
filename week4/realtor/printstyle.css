@@ -1,0 +1,169 @@
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+
+header {
+	background-image: url('images/header.jpg');
+	height: 200px;
+	width: 1060px;
+	background-repeat:no-repeat;
+	margin-left: -150px;
+}
+
+hgroup {
+font-family: verdana, arial, sans-serif;
+padding: 110px 0 0 390px;
+color: #03216A;
+}
+
+hgroup h2 {
+margin-top: -30px;
+padding-left: 50px;
+}
+
+nav {	display:none;	
+}
+		
+nav ul { 
+	list-style-type: none; 
+	margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;   
+    padding: 5px 15px 5px 15px;    
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+nav li:hover li {
+    float: none;
+}
+
+nav li:hover a { 
+	background: #fff;
+	color: #0d2f4a;
+}
+
+nav li:hover li a:hover {
+    background: #0d2f4a;
+	color: #fff;
+	}
+	
+#bio { display: none;
+}
+
+#jess{ display: none;
+}
+
+#listings{
+width: 960px;
+overflow: auto;
+margin-top: 10px;
+}
+
+#newlistings{
+width: 520px;
+}
+
+
+#newlistings ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#newlistings ul li {
+display: block;
+}
+
+#newlistings ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;    
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+#listings h2{
+color: #000;
+}
+
+
+table{
+background-color: #fff;
+float:right;
+margin-top: -159px;
+margin-right: 20px;
+height: 150px;
+width: 250px;
+}
+
+#grad{ display: none;
+}
+
+#townhouse{ display: none;
+}
+
+#soldlistings h2{
+display: none;
+}
+
+#soldlistings p {
+display: none;
+}
+
+form { display: none;
+}
+
+footer{
+width:960px;
+height:50px;
+margin-top: 10px;
+text-indent: 400px;
+a:link color:#000;
+}
+
+footer a:link:after, 
+footer a:visited:after,
+ {
+		content: " URL: ( " attr(href) ") ";
+		font-size: 90%;
+   }
+   
+footer a[href^="/"]:after,
+footer a[href^="/"]:after {
+		content: " URL: (http://students.thenet.com" attr(href) ") ";
+   }
+
+
+footer a:link {color: #000;}
+footer a:visited {color: #000;}
+footer a:active {color: #000;}
+
+
+fieldset{
+border: 0;
+padding: 0;
+}

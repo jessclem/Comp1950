@@ -1,0 +1,25 @@
+body{
+background-image:url('images/bluetree.jpg');
+background-position: right top;
+background-repeat:no-repeat;
+background-attachment:fixed;
+width:100%;
+background-color:#c2d0db;
+font-family: arial, sans-serif;
+}
+
+
+#container { 
+margin:0 auto;
+width: 75%; 
+background-image:url('images/swirl.png');
+background-attachment: fixed;
+overflow: auto;
+background-color:#cccccc;
+height:650px;
+}
+
+header {
+
+margin-left: 450px
+}

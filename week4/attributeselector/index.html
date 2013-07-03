@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Links</title>
+<style>
+body {
+font-family: Tahoma, Verdana, Sans-serif;
+color: #333;
+}
+h1 {
+font-size: 125%;
+}
+
+a[href$=".pdf"]:after {
+  content: url(pdf.gif);
+}
+
+a[href$=".doc"]:after {
+  content: url(word.gif);
+}
+
+a[href$=".xls"]:after {
+  content: url(excel.gif);
+}
+ 
+/* Add your styles here */
+/* Remember: do NOT change any HTML, just add CSS to get the desired effect */
+/* End of your styles */
+</style>
+</head>
+<body>
+<h1>Project Site</h1>
+<p>Documents available:</p>
+<ul>
+<li>A completed <a href="documents/outline.pdf">Project Outline </a> for this year</li>
+<li>A list of <a href="documents/tasks.doc">Tasks and Responsibilities </a> for all team members</li>
+<li>The complete <a href="documents/budget.xls">Timeline and Budget </a> from finance</li>
+</ul>
+</body>
+</html>

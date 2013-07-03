@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Week 6 - Gallery</title>
+<link rel="stylesheet" type="text/css" href="gallerystyle.css">
+</head>
+<body>
+<div id="container">
+<h1>Z' Ember Von Schraderhaus</h1>
+<div id="featureimage">
+<img src="images/<!--#echo var="QUERY_STRING"-->.jpg" >
+</div>
+
+<ul>
+<li><a href="index.shtml?beachdog"><img src="images/beachdogthumb.jpg"></a></li>
+<li><a href="index.shtml?emberdog"><img src="images/emberdogthumb.jpg"></a></li>
+<li><a href="index.shtml?flyingdog"><img src="images/flyingdogthumb.jpg"></a></li>
+<li><a href="index.shtml?hurdledog"><img src="images/hurdledogthumb.jpg"></a></li>
+<li><a href="index.shtml?lakedog"><img src="images/lakedogthumb.jpg"></a></li>
+<li><a href="index.shtml?snowdog"><img src="images/snowdogthumb.jpg"></a></li>
+<li><a href="index.shtml?suitdog"><img src="images/suitdogthumb.jpg"></a></li>
+<li><a href="index.shtml?waterdog"><img src="images/waterdogthumb.jpg"></a></li>
+
+</ul>
+
+</div>
+</body>
+</html>

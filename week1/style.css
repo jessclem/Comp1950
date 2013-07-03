@@ -1,0 +1,124 @@
+body{
+background-image:url('images/bluetree.jpg');
+background-position: right top;
+background-repeat:no-repeat;
+background-attachment:fixed;
+width:100%;
+background-color:#c2d0db;
+font-family: arial, sans-serif;
+}
+
+
+#container { 
+margin:0 auto;
+width: 75%; 
+background-image:url('images/swirl.png');
+background-attachment: fixed;
+overflow: auto;
+background-color:#cccccc;
+height:650px;
+}
+
+header {
+
+margin-left: 450px
+}
+
+h3 {
+text-indent: 10px;
+}
+
+p {
+padding: 0 15px;
+}
+
+a img {
+border: none; 
+}
+
+ul {
+list-style-type:none;
+text-decoration:none;
+}
+
+ul a:link {
+text-decoration:none;
+}
+ul a:visited {
+text-decoration:none;
+color:#0d2f4a;
+}
+
+ul a:hover {color:#607423;}
+
+#weeklist {
+background-image:url('images/greenleafs.png');
+background-repeat:no-repeat;
+font-weight: bold;
+width: 400px;
+height: 402px;
+float: left;
+margin-left: 100px;
+margin-top: -95px;
+}
+
+#weekone {
+padding: 25px 0 0 9px;
+}
+
+#weektwo {
+padding: 0 0 0 20px;
+}
+
+#weekthree {
+padding: 0 0 0 35px;
+}
+
+#weekfour {
+padding: 0 0 0 50px;
+}
+
+#weekfive {
+padding: 0 0 0 72px;
+}
+
+#weeksix {
+padding: 0 0 0 100px;
+}
+
+#weekseven {
+padding: 0 0 0 133px;
+}
+
+#weekeight {
+padding: 0 0 0 170px;
+}
+
+#weeknine {
+padding: 0 0 0 105px;
+}
+
+#weekten {
+padding: 0 0 0 130px;
+}
+
+#weekeleven {
+padding: 0 0 0 160px;
+}
+
+#weektwelve {
+padding: 0 0 0 175px;
+}
+
+#hleaf {
+float: right;
+margin-right: 100px;
+margin-top: 50px;
+width: 400px;
+height: 402px;
+background-image:url('images/hoverleaf.png');
+}
+
+#hleaf img:hover {
+opacity:0;
+}

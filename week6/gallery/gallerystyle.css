@@ -1,0 +1,43 @@
+body{
+background-image:url('images/bluetree.jpg');
+background-position: right top;
+background-repeat:no-repeat;
+background-attachment:fixed;
+width:100%;
+background-color:#c2d0db;
+font-family: arial, sans-serif;
+}
+
+
+#container { 
+margin:0 auto;
+width: 75%; 
+background-image:url('images/swirl.png');
+background-attachment: fixed;
+overflow: auto;
+background-color:#cccccc;
+
+}
+
+h1{
+color:#1B3683;
+margin: 0 auto;
+width: 450px;
+}
+
+ul {
+margin: 0 auto;
+width: 800px
+}
+
+ul li {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+#featureimage {
+height: 425px;
+width: 450px;
+margin: 25px auto;
+}

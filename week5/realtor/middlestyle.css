@@ -1,0 +1,225 @@
+
+
+#container{
+width: 100%;
+margin: 0px 0px;	
+}
+
+
+
+header {
+	background-image: url('images/header.jpg');
+	min-height: 100px;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-position: 70px 0;
+	margin-left: -70px;
+}
+
+hgroup {
+font-family: verdana, arial, sans-serif;
+padding: 100px 75px;
+color: #03216A;
+font-size: .6em;
+}
+
+hgroup h2 {
+margin-top: -20px;
+padding-left: 50px;
+}
+
+nav {	
+	color: #ffffff;
+	width: 94%;
+	padding-left: 0px;
+	font-size: 1.3em;	
+	background-color: #0d2f4a;
+	background-image: none;
+	
+}
+		
+nav ul { 
+	list-style-type: none; 
+	margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+nav li ul {
+    display: none;
+	z-index: 3;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;   
+    padding: 5px 15px 5px 15px;    
+    margin-left: 1px;
+    white-space: nowrap;
+	
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+nav li:hover li {
+    float: none;
+}
+
+nav li:hover a { 
+	background: #fff;
+	color: #0d2f4a;
+}
+
+nav li:hover li a:hover {
+    background: #0d2f4a;
+	color: #fff;
+	}
+	
+#bio {
+	background-image: url('images/vancouver.jpg');
+	width: 94%;
+	
+	margin-top: -30px;
+}
+
+
+
+#write{
+max-width:360px;  
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+  float: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+
+
+#write p {
+padding: 10px 15px 5px 15px;
+font-weight: bold;
+
+}
+
+#listings{
+width: 94%;
+overflow: auto;
+background-image: url('images/bluebck.jpg');
+margin-top: 10px;
+border-top: 10px ridge;
+border-bottom: 10px ridge;
+}
+
+
+
+#soldlistings{
+float: left;
+max-width: 440px;
+
+
+}
+
+#newlistings{
+float: none;
+max-width: 520px;
+
+}
+
+#newlistings h2{
+margin-right: 40px;
+}
+
+#newlistings ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#newlistings ul li {
+display: block;
+}
+
+#newlistings ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;    
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+#listings h2{
+color: #fff;
+}
+
+
+table{
+background-color: #fff;
+float:right;
+margin-top: -159px;
+margin-right: 20px;
+height: 150px;
+width: 250px;
+}
+
+#grad{
+padding: 75px 0 0 45px;
+}
+
+#townhouse{
+padding-left: 45px;
+margin-top: -15px;
+}
+
+#soldlistings h2{
+padding-left: 45px;
+margin-top: -2px;
+}
+
+#soldlistings p {
+background-color: #fff;
+height:25px;
+width: 320px;
+margin-left: 45px;
+margin-top: -5px;
+text-indent: 10px;
+}
+
+form {
+color: #fff;
+width: 170px;
+float: right;
+margin-top: 55px;
+}
+
+footer{
+width:94%;
+height:50px;
+background-color: #444444;
+margin-top: 10px;
+text-indent: 400px;
+a:link color:#FF0000;
+
+}
+
+footer a:link {color: #ffffff;}
+footer a:visited {color: #ffffff;}
+footer a:active {color: #ffffff;}
+
+
+fieldset{
+border: 0;
+padding: 0;
+}
